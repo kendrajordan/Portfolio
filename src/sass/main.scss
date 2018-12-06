@@ -1,0 +1,125 @@
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+body{
+  background-color: blue;
+}
+div.container.col-sm-3.btn{
+  width:300px;
+  height: 600px;
+  border: 6px solid #F3CF55;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0;
+}
+a.image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  background-color: blue;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div.text {
+  background-color: #F3CF55;
+  color: blue;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 5px;
+  font-family: 'Lora', serif;
+}
+div.container.col-sm-3.btn:hover .image{
+  opacity: 0.3;
+
+}
+
+div.container.col-sm-3.btn:hover .middle{
+opacity:1;
+}
+div#oval {
+  width: 600px;
+  height: 300px;
+  background: #F3CF55;
+  border-radius: 400px / 200px;
+  position:absolute;
+  top: 110%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border:3px;
+  border: 6px solid blue;
+  box-sizing: border-box;
+}
+.oval-text{
+  position: relative;
+  color:blue;
+  top: 35%;
+  font-size: 2rem;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+#car{
+  background-image: url('/webpages/car_selectionpng.png');
+  background-position: top;
+}
+#galaxy{
+  background-image: url('/webpages/GalaxyGala.png');
+  background-position: bottom;
+}
+#bumblr{
+  background-image: url('/webpages/bumblr.png');
+    background-position: center;
+}
+#gif{
+  background-image: url('/webpages/giphy.png');
+
+}
+#clock{
+  background-image: url('/webpages/clock.png');
+    background-position: center;
+}
+#count{
+  background-image: url('/webpages/wordcount.png');
+    background-position: center;
+}
+#constable{
+  background-image: url('/webpages/constable.png');
+
+}
+#stock{
+  background-image: url('/webpages/lockstockbarrel.png');
+    background-position: top;
+}
+#calculator{
+  background-image: url('/webpages/calculator.png');
+    background-position: center;
+}
+#colmar{
+  background-image: url('/webpages/colmar.png');
+    background-position: top;
+}
+#blog{
+  background-image: url('/webpages/blog.png');
+
+}
+#TeaCozy{
+  background-image: url('/webpages/teacozy.png');
+
+}
+
+img.card-img-top{
+  overflow-x:hidden;
+}
