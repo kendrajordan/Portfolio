@@ -8687,59 +8687,59 @@ div#oval {
 }
 
 #car {
-  background-image: url("/webpages/car_selectionpng.png");
+  background-image: url("../webpages/car_selectionpng.png");
   background-position: top;
 }
 
 #galaxy {
-  background-image: url("/webpages/GalaxyGala.png");
+  background-image: url("../webpages/GalaxyGala.png");
   background-position: bottom;
 }
 
 #bumblr {
-  background-image: url("/webpages/bumblr.png");
+  background-image: url("../webpages/bumblr.png");
   background-position: center;
 }
 
 #gif {
-  background-image: url("/webpages/giphy.png");
+  background-image: url("../webpages/giphy.png");
 }
 
 #clock {
-  background-image: url("/webpages/clock.png");
+  background-image: url("../webpages/clock.png");
   background-position: center;
 }
 
 #count {
-  background-image: url("/webpages/wordcount.png");
+  background-image: url("../webpages/wordcount.png");
   background-position: center;
 }
 
 #constable {
-  background-image: url("/webpages/constable.png");
+  background-image: url("../webpages/constable.png");
 }
 
 #stock {
-  background-image: url("/webpages/lockstockbarrel.png");
+  background-image: url("../webpages/lockstockbarrel.png");
   background-position: top;
 }
 
 #calculator {
-  background-image: url("/webpages/calculator.png");
+  background-image: url("../webpages/calculator.png");
   background-position: center;
 }
 
 #colmar {
-  background-image: url("/webpages/colmar.png");
+  background-image: url("../webpages/colmar.png");
   background-position: top;
 }
 
 #blog {
-  background-image: url("/webpages/blog.png");
+  background-image: url("../webpages/blog.png");
 }
 
 #TeaCozy {
-  background-image: url("/webpages/teacozy.png");
+  background-image: url("../webpages/teacozy.png");
 }
 
 img.card-img-top {
